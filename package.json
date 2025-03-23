@@ -1,0 +1,27 @@
+{
+  "name": "testcase-management-api",
+  "version": "1.0.0",
+  "description": "API server for Test Case Management System",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@types/xlsx": "^0.0.36",
+    "axios": "^1.8.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.18.2",
+    "mammoth": "^1.6.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "openai": "^4.89.0",
+    "pdf-parse": "^1.1.1",
+    "winston": "^3.8.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
