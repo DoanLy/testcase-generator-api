@@ -39,6 +39,10 @@ class AIService {
         5. StepNumber MUST start from 1 and increment
         6. All string fields MUST be properly escaped JSON strings
         7. Response MUST be a valid JSON array only, no additional text
+        8. Expected result: base on document content and follow the example:
+        Example:
+        Requirement: "When the user enters the correct email and password, the system must log in successfully and go to the dashboard page." 
+        Expected Result: The system displays the Dashboard page with the user information after logging in.
       `;
 
       const documentPrompt = `
